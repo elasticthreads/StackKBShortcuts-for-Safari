@@ -21,6 +21,10 @@
 // @author         Benjamin Dumke / Stack Exchange
 // ==/UserScript==
 
+// (c) 2011 Stack Exchange Inc.
+// Released under the MIT License, see
+// https://bitbucket.org/balpha/se-keyboard-shortcuts/raw/tip/LICENSE.txt
+
 // Thanks to Shog9 for this idea for making the script work in both
 // Chrome and Firefox: http://meta.stackoverflow.com/questions/46562 (now deleted)
 
@@ -38,48 +42,6 @@ with_jquery(function($) { $(function () {
     if (!(window.StackExchange && StackExchange.helpers && StackExchange.helpers.DelayedReaction))
         return;
     
-    // BEGIN of updateable-only code
-    
-/*    var lsAvailable = false;
-    try {
-        localStorage.getItem("idonotexist")
-    } catch (e) {
-        alert("The auto-updating version of the keyboard shortcuts script requires the HTML5 localStorage, which you don't have." +
-              " Please activate it, or install the not-updating version instead.");
-        return;
-    }
-    
-    var version = 12,
-        versionKey = "SEKeyboardShortcutsCurrentVersion",
-        updaterKey = "SEKeyboardShortcutsUpdater",
-        scriptUrl = "https://bitbucket.org/balpha/se-keyboard-shortcuts/raw/tip/sekeys.updating.user.js",
-        updateInterval = 12 * 60 * 60 * 1000; // 12 hours
-    if (window[versionKey]) {
-        if (window[versionKey] < version) {
-            window[updaterKey]();
-        }
-        return;        
-    }
-
-    var lastUpdateCheck = parseInt(setting("lastUpdateCheck")),
-        now = new Date().getTime();
-    if (!lastUpdateCheck || now - lastUpdateCheck > updateInterval) {
-        setting("lastUpdateCheck", now);
-        window[versionKey] = version;
-        window[updaterKey] = function () {
-            setting("updateIsAvailable", true);
-            reinit();
-            updateMessage = "A new version of the keyboard shortcuts script\nis available. <b><a href=\"" + scriptUrl + "\">Update now</a></b>."
-            showConsole(updateMessage);
-        }
-        $("<script />").attr("src", scriptUrl).appendTo("head");
-    }
-    if (setting("updateIsAvailable")) {
-        updateMessage = "A new version of the keyboard shortcuts script\nis available. <b><a href=\"" + scriptUrl + "\">Update now</a></b>."
-    }*/
-    
-    // END of updateable-only code
-
     function setting(name, val) {
         var prefix = "se-keyboard-shortcuts.settings.";
         if (arguments.length < 2) {
