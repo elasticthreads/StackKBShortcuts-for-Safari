@@ -6,63 +6,15 @@
    <array>
 	<dict>
 		<key>CFBundleIdentifier</key>
-		<string>com.elasticthreads.instapaperit</string>
+		<string>com.elasticthreads.stackkbshortcuts</string>
 		<key>Developer Identifier</key>
 		<string>F7VAC3Z993</string>
 		<key>CFBundleVersion</key>
-		<string>23</string>
+		<string>1</string>
 		<key>CFBundleShortVersionString</key>
-		<string>1.25</string>
+		<string>0.81</string>
 		<key>URL</key>
-		<string>https://sites.google.com/site/xtrathreads/InstapaperIt.safariextz?</string>
-	</dict>
-	<dict>
-		<key>CFBundleIdentifier</key>
-		<string>com.elasticthreads.instapaperarticletools</string>
-		<key>Developer Identifier</key>
-		<string>F7VAC3Z993</string>
-		<key>CFBundleVersion</key>
-		<string>30</string>
-		<key>CFBundleShortVersionString</key>
-		<string>1.30</string>
-		<key>URL</key>
-		<string>https://sites.google.com/site/xtrathreads/InstapaperArticleTools.safariextz?</string>
-	</dict>
-	<dict>
-		<key>CFBundleIdentifier</key>
-		<string>com.elasticthreads.instapapergreystyled</string>
-		<key>Developer Identifier</key>
-		<string>F7VAC3Z993</string>
-		<key>CFBundleVersion</key>
-		<string>16</string>
-		<key>CFBundleShortVersionString</key>
-		<string>1.16</string>
-		<key>URL</key>
-		<string>https://sites.google.com/site/xtrathreads/InstapaperGreystyled.safariextz?</string>
-	</dict>
-	<dict>
-		<key>CFBundleIdentifier</key>
-		<string>com.elasticthreads.isgdit</string>
-		<key>CFBundleShortVersionString</key>
-		<string>0.90</string>
-		<key>CFBundleVersion</key>
-		<string>8</string>
-		<key>Developer Identifier</key>
-		<string>F7VAC3Z993</string>
-		<key>URL</key>
-		<string>http://github.com/downloads/elasticthreads/ElasticExtensions/isgdit5.safariextz</string>
-	</dict>
-	<dict>
-		<key>CFBundleIdentifier</key>
-		<string>com.elasticthreads.nvit</string>
-		<key>Developer Identifier</key>
-		<string>F7VAC3Z993</string>
-		<key>CFBundleVersion</key>
-		<string>6</string>
-		<key>CFBundleShortVersionString</key>
-		<string>0.84</string>
-		<key>URL</key>
-		<string>https://sites.google.com/site/elasticnv/nvIt.safariextz?</string>
+		<string>https://github.com/elasticthreads/StackKBShortcuts-for-Safari/blob/master/StackKBShortcuts.safariextz</string>
 	</dict>
    </array>
 </dict>
