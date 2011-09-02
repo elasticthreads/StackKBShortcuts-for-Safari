@@ -58,7 +58,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://github.com/elasticthreads/StackKBShortcuts-for-Safari/blob/master/updatesManifest.plist</string>
+	<string>https://raw.github.com/elasticthreads/StackKBShortcuts-for-Safari/master/updatesManifest.plist</string>
 	<key>Website</key>
 	<string>http://stackapps.com/questions/2567/official-keyboard-shortcuts</string>
 </dict>
