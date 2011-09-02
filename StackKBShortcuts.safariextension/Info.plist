@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>ElasticThreads</string>
+	<key>Builder Version</key>
+	<string>6534.50</string>
+	<key>CFBundleDisplayName</key>
+	<string>StackKBShortcuts</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.elasticthreads.stackkbshortcuts</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.81</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>common.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://stackoverflow.com/*</string>
+			<string>http://*.stackoverflow.com/*</string>
+			<string>http://serverfault.com/*</string>
+			<string>http://superuser.com/*</string>
+			<string>http://meta.stackoverflow.com/*</string>
+			<string>http://meta.serverfault.com/*</string>
+			<string>http://meta.superuser.com/*</string>
+			<string>http://stackapps.com/*</string>
+			<string>http://*.stackexchange.com/*</string>
+			<string>http://mathoverflow.net/*</string>
+			<string>http://meta.answers.onstartups.com/*</string>
+			<string>http://answers.onstartups.com/*</string>
+			<string>http://meta.askubuntu.com/*</string>
+			<string>http://askubuntu.com/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Injects the Stack Exchange keyboard shortcuts script</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://stackapps.com/questions/2567/official-keyboard-shortcuts</string>
+</dict>
+</plist>
